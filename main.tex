@@ -1,0 +1,75 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}	% Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage[hang, bf, small]{caption}
+\usepackage[plainpages=false, pdfpagelabels]{hyperref}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\begin{document}
+
+% set section counter
+
+\setcounter{section}{0}
+
+\thispagestyle{empty}
+
+\begin{center}
+\LARGE \bf Management Accounting (GIA 784)\
+\end{center}
+
+\noindent\rule{\textwidth}{1pt}
+
+\section{Topic 1 - Performance Measures}
+\subsection{Chapter 1 - Use and Abuse of Accounting}
+\input{ch1}
+\newpage
+\section{Topic 2 - Costing}
+\subsection{Chapter 12 - Principles of Absorption Cost Accounting}
+\input{ch12}
+\subsection{Chapter 13 - Principles of Management Accounting}
+\input{ch13}
+\newpage
+\section{Topic 3 - Budgeting and Control}
+\subsection{Chapter 11 - The Financial Planning Process}
+\input{ch11}
+\subsection{Chapter 14 - Accounting as an Aid to Management Planning and Control}
+\input{ch14}
+\subsection{Chapter 16 - Capital Investment Appraisal}
+\input{ch16}
+\subsection{Appendix C - The Use of Discount Tables}
+\input{appC}
+\subsection{Appendix D - Perspective on Directors' Duties and Corporate Governance}
+\input{appD}
+
+
+\end{document}
